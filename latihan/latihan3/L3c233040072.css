@@ -1,0 +1,43 @@
+body{
+    background-color: aqua;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-family: Comic Sans MS;
+    font-size: 60px;
+    color: darkblue;
+    text-align: center;
+}
+
+h4{
+    text-align: end;
+}
+
+.ling1 {
+    color: white;
+    font-variant: small-caps;
+}
+
+.ling1:hover{
+    color: red;
+}
+
+.ling2 {
+    color: blue;
+}
+
+.ling2:hover{
+    color: white;
+}
+
+
+
+.satu {
+    color: orange;
+    text-align: center;
+}
+
+.dua{
+    text-align: right;
+}
