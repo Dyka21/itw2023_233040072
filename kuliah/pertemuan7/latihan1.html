@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <
+    <title>Document</title>
+    <style>
+
+        div{
+            width: 150px;
+            height: 150px;
+            margin: 50px auto;
+        }
+        
+        .kotak{
+            width: 150px;
+            height: 150px;
+            margin: 50px auto;
+            position: relative;
+            background-color: salmon;
+            border-radius: 50% 50% 50% 0;
+            }
+        
+        .kotak2{
+            background-color:white;
+            /*<x-offset> <y-offset> <blur> [size] <color>; */
+            box-shadow: 50px 50px 1px black, -50px 50px 1px red;
+            
+        }
+        .kotak2:hover {
+            border-radius: 0%;
+            transform: rotate(360deg);
+            transition: 5s;
+        }
+    
+    
+    </style>
+</head>
+<body>
+    
+    <div class="kotak"></div>
+    <div class="kotak2"></div>
+</body>
+</html>
